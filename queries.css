@@ -1,0 +1,516 @@
+@media (max-width: 1500px) {
+
+  .container {
+    max-width: 120rem;
+  }
+
+
+
+  .discount-image {
+    height: 23rem;
+  }
+
+  .discount-image img {
+    width: 28rem;
+    height: auto;
+  }
+
+
+  .steps {
+    width: 20rem;
+  }
+
+
+  .popular-items img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .restaurant-image img {
+    border-radius: 20px;
+    width: 26rem;
+    height: 22rem;
+  }
+
+
+  .search-by-food img {
+    width: 16rem;
+  }
+
+  .install-offer img {
+    width: 10rem;
+  }
+
+  .phone-image img {
+    width: 45rem;
+  }
+
+
+}
+
+@media (max-width: 1300px) {
+
+  .container {
+    max-width: 90rem;
+  }
+
+  .hero {
+    padding: 2.5em;
+
+  }
+
+  .hero h1 {
+    font-size: 5em;
+  }
+
+  .hero h2 {
+    font-size: 2.4em;
+  }
+
+  input[placeholder="Enter Your Address"] {
+    width: 70%;
+  }
+
+  .popular-list {
+    gap: 2rem;
+    justify-content: flex-start;
+  }
+
+  .popular-items img {
+    width: 28rem;
+    height: 28rem;
+    border-radius: 10px;
+
+  }
+
+  .restaurant-list {
+    justify-content: flex-start;
+
+  }
+
+  .search-by-food img {
+    width: 25rem;
+
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 70rem;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .location {
+    display: none;
+  }
+
+  .hero {
+    height: 40rem;
+    padding-top: 0;
+  }
+
+  .hero {
+    gap: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  input[placeholder="Enter Your Address"] {
+    width: 15rem;
+  }
+
+  .delivery-address button {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
+
+  .discount-list {
+    justify-content: space-around;
+  }
+
+  .discount-image {
+    height: 28rem;
+  }
+
+  .discount-image img {
+    width: 34rem;
+  }
+
+  .steps {
+    width: 20rem;
+  }
+
+  .popular-items img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .restaurant-list {
+    justify-content: space-around;
+  }
+
+  .search-by-food img {
+    width: 20rem;
+  }
+
+  .phone-image {
+    display: block;
+    padding-bottom: 4rem;
+  }
+
+  .phone-image img {
+    display: none;
+  }
+
+  .phone-text {
+    width: 80%;
+    color: #212121;
+    font-size: 1.8rem;
+
+  }
+
+  .phone-text h1 {
+    color: #704e04;
+    font-size: 4.8rem;
+  }
+
+
+  .advert-box {
+
+    max-width: 85rem;
+    height: 30rem;
+  }
+
+  .advert-box img {
+    max-width: 65rem;
+  }
+
+  .advert-text {
+    width: 250px;
+    padding: 0 2rem;
+  }
+
+  .advert-text h1 {
+    font-size: 3rem;
+  }
+
+  .advert-text p {
+
+    font-size: 1.4rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .container {
+    max-width: 55rem;
+  }
+
+  .discount-image {
+    width: 24rem;
+    height: 20rem;
+  }
+
+  .steps-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .popular-list {
+    justify-content: center;
+    flex-shrink: 1;
+  }
+
+  .popular-list:last-child {
+    justify-self: start;
+  }
+
+  .restaurant-image img {
+    width: 22rem;
+    height: 18rem;
+  }
+
+  .search-login {
+    display: none;
+  }
+
+  .offers-container {
+    flex-wrap: wrap;
+  }
+
+  .install-offer {
+    border: none;
+    padding: 1rem;
+  }
+
+  .hero-section {
+    height: 80rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+    height: 80rem;
+    overflow: visible;
+
+  }
+
+  .hero-left {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 5.4rem;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .hero img {
+    width: 40rem;
+    padding-left: 2em;
+  }
+
+  input[placeholder="Enter Your Address"] {
+    width: 25em;
+  }
+
+  .delivery-address button {
+    width: 100%;
+  }
+
+  .address-form {
+    flex-direction: column;
+
+  }
+
+  .advert-box {
+    max-width: 50rem;
+    height: 50rem;
+    margin: 0 2rem;
+  }
+
+  .advert-box img {
+    max-width: 50rem;
+    border-radius: 0;
+  }
+
+  .search-list {
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .advert-text {
+    width: 80%;
+    padding: 0 4rem 2rem 4rem;
+  }
+
+  .advert-text p {
+    font-size: 1.8rem;
+  }
+
+  .right-ad {
+    grid-template-columns: 1fr;
+  }
+
+  .left-ad {
+    grid-template-columns: 1fr;
+  }
+
+  .right-ad .advert-text {
+    order: 1;
+  }
+
+}
+
+@media (max-width: 510px) {
+
+  .container {
+    max-width: 40rem;
+  }
+
+  .hero-section {
+    height: 70rem;
+  }
+
+  .hero {
+    height: 70rem;
+  }
+
+  .hero h1 {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 90%;
+    padding: 0;
+  }
+
+  input[placeholder="Enter Your Address"] {
+    width: 18rem;
+  }
+
+  .discount-list {
+    align-items: center;
+  }
+
+  .discount-image {
+    height: 26rem;
+
+    width: fit-content;
+  }
+
+  .discount-image img {
+    width: 32rem;
+  }
+
+  .steps-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .popular-items img {
+    width: 32rem;
+    height: 32rem;
+  }
+
+  .restaurant-image img {
+    width: 32rem;
+    height: auto;
+  }
+
+  .search-list {
+    justify-content: center;
+  }
+
+  .search-by-food img {
+    width: 26rem;
+  }
+
+  .phone-text h1 {
+    font-size: 4rem;
+  }
+
+  .followUs-box {
+    color: #bdbdbd;
+  }
+
+  .followUs-box h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+
+  .followUs-box h3 {
+    margin-bottom: 5px;
+  }
+
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscribe input {
+    width: 18rem;
+  }
+
+  .subscribe button {
+    width: 100%;
+  }
+
+
+
+
+}
+
+
+@media (max-width: 350px) {
+  .container {
+    max-width: 30rem;
+  }
+
+  .hero-section {
+    height: 65rem;
+  }
+
+  .hero {
+    height: 65rem;
+    padding: 0;
+  }
+
+  .hero img {
+    padding-left: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 4.8rem;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  input[placeholder="Enter Your Address"] {
+    width: 14rem;
+  }
+
+  .discount-image {
+    height: 18rem;
+  }
+
+  .discount-image img {
+    width: 22rem;
+  }
+
+  .popular-items img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .restaurant-image img {
+    width: 22rem;
+    height: auto;
+  }
+
+  .search-list {
+    justify-content: center;
+  }
+
+  .search-by-food img {
+    width: 20rem;
+  }
+
+  .subscribe input {
+    width: 14rem;
+  }
+
+}
